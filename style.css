@@ -1,0 +1,20 @@
+body {
+	background: #fefefe;
+}
+
+.mainHeader {
+	color: lime;
+}
+
+.sectionHeader {
+	color: #1460AA;
+}
+
+.usectionHeader {
+	color: red;
+	font-style: italic;
+}
+
+p {
+	color: darkviolet;
+}
