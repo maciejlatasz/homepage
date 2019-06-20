@@ -1,9 +1,10 @@
 body {
-	background: salmon;
+	background: #fefefe;
+	color: #333;
 }
 
 .mainHeader {
-	color: lime;
+	color:#00487C;
 }
 
 .sectionHeader {
@@ -17,4 +18,8 @@ body {
 
 p {
 	color: darkviolet;
+}
+
+.link {
+	color: #1a936F;
 }
