@@ -3,8 +3,17 @@ body {
 	color: #333;
 }
 
-.mainHeader {
-	color:#00487C;
+.main {
+	width: 100%;
+	max-width: 700px;
+	margin: 32px auto;
+}
+.header {
+	color:orange;
+}
+
+.heading {
+	color: darkblue;
 }
 
 .sectionHeader {
@@ -17,9 +26,17 @@ body {
 }
 
 p {
-	color: darkviolet;
+	color: rgb(78, 45, 224);
 }
 
 .link {
 	color: #1a936F;
+}
+
+.about {
+	
+}
+
+.paragraph {
+	
 }
