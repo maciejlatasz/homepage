@@ -9,7 +9,7 @@ body {
 	margin: 32px auto;
 	padding-top: 10px;
 }
-.header {
+.about__header {
 	color:orange;
 	}
 
@@ -30,7 +30,7 @@ p {
 	color: rgb(78, 45, 224);
 }
 
-.link {
+.navigation__link {
 	color: #1a936F;
 }
 
@@ -38,8 +38,9 @@ p {
 	
 }
 
-.paragraph {
-	
+.about__paragraph {
+	padding: 16px;
+	overflow: hidden;
 }
 
 .box {
@@ -67,4 +68,12 @@ p {
 	box-sizing: border-box;
 	padding: 16px;
 	background: #fff;
+}
+
+.about__picture {
+	width: 100%;
+	max-width: 100px;
+	display: block;
+	float: left;
+	margin: 0 16px 16px 0;
 }

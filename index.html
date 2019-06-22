@@ -12,13 +12,13 @@
 
 <body>
     <header id="top" class="navigation">
-        <a class="link" href="index.html">Strona główna</a>
-        <a class="link" href="podstrona.html">Podstrona</a>
-        <a class="link" href="poniedzialek.html">Poniedziałek</a>
-        <a class="link" href="wtorek.html">Wtorek</a>
-        <a class="link" href="sroda.html">Środa</a>
-        <a class="link" href="czwartek.html">Czwartek</a>
-        <a class="link" href="piatek.html">Piątek</a>
+        <a class="navigation__link" href="index.html">Strona główna</a>
+        <a class="navigation__link" href="podstrona.html">Podstrona</a>
+        <a class="navigation__link" href="poniedzialek.html">Poniedziałek</a>
+        <a class="navigation__link" href="wtorek.html">Wtorek</a>
+        <a class="navigation__link" href="sroda.html">Środa</a>
+        <a class="navigation__link" href="czwartek.html">Czwartek</a>
+        <a class="navigation__link" href="piatek.html">Piątek</a>
     </header>
     <main class="main">
         <header class="header">
@@ -26,12 +26,14 @@
         </header>
         <section class="about">
             <div class="box">Co ten frontend?</div>
-            <h2>HTML</h2>
+            <h2 class="about__header">HTML</h2>
             <section>
                 <h3 class="usectionHeader">Na początek HTML</h3>
-                <p class="paragraph">Pierwszym naszym zadaniem jest poznanie HTML. Uczymy się składni i tworzymy
+                <p class="about__paragraph">
+                    <img src="pierogi.jpg" alt="Pierogi" class="about__picture"/>
+                    Pierwszym naszym zadaniem jest poznanie HTML. Uczymy się składni i tworzymy
                     szkielet strony. HTML
-                    wpływa na treść strony.<br>
+                    wpływa na treść strony. Kod HTML jest semantyczny, tzn. ma znaczenie. Można powiedzieć, że HTML jest szkieletem strony.<br>
                     <a class="link" href="podstrona.html">Przejdź do artykułu o pisaniu HTMLa</a>
 
                 </p>
