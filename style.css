@@ -9,19 +9,16 @@ body {
 	margin: 32px auto;
 	padding-top: 10px;
 }
-.about__header {
-	color:orange;
-	}
 
-.heading {
+.about__header {
+	color: rgb(97, 95, 228);
+}
+
+.main__heading {
 	color: darkblue;
 }
 
-.sectionHeader {
-	color: #1460AA;
-}
-
-.usectionHeader {
+.about__title {
 	color: red;
 	font-style: italic;
 }
@@ -35,7 +32,7 @@ p {
 }
 
 .about {
-	
+	max-width: 700px;
 }
 
 .about__paragraph {
