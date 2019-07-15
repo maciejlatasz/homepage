@@ -33,6 +33,7 @@ p {
 
 .about {
 	max-width: 700px;
+	padding: 16px;
 }
 
 .about__paragraph {

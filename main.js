@@ -1,7 +1,7 @@
 console.log('siema');
 console.log('Super tajne dane')
 const name = 'Maciek';
-const age = 29;
+const age = 27;
 console.log(name);
 console.log(age);
 console.log(`Nazywam się ${name} i mam ${age} lat`);
@@ -18,3 +18,27 @@ const change = document.querySelector('.about__test');
 
 console.log(change.innerHTML);
 change.innerHTML = 'Zmiana wprowadzona za pomocą JS';
+
+switch (age) {
+    case 20:
+        console.log('masz równo 20 lat');
+    break;
+    case 30:
+        console.log('masz równo 30 lat');
+    break;
+    default:
+        console.log(`masz ${age} lat`);
+    break;
+}
+
+function calculate(x) {
+    x = x + 3;
+    console.log(x);
+    return x+7;
+}
+
+console.log(calculate(2));
+
+const calculateFat = x => (x+3)*7;
+
+console.log(calculateFat(2));
