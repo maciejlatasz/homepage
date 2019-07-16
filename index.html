@@ -6,19 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="normalize.css" rel="stylesheet" type="text/css">
     <link href="style.css" rel="stylesheet" type="text/css">
 
 </head>
 
 <body>
-    <header id="top" class="navigation">
-        <a class="navigation__link" href="index.html">Strona główna</a>
-        <a class="navigation__link" href="podstrona.html">Podstrona</a>
-        <a class="navigation__link" href="poniedzialek.html">Poniedziałek</a>
-        <a class="navigation__link" href="wtorek.html">Wtorek</a>
-        <a class="navigation__link" href="sroda.html">Środa</a>
-        <a class="navigation__link" href="czwartek.html">Czwartek</a>
-        <a class="navigation__link" href="piatek.html">Piątek</a>
+    <header id="top" class="site-header">
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a class="navigation__link" href="index.html">Strona główna</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="podstrona.html">Podstrona</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="poniedzialek.html">Poniedziałek</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="wtorek.html">Wtorek</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="sroda.html">Środa</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="czwartek.html">Czwartek</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="piatek.html">Piątek</a></li>
+            </ul>
+        </nav>
     </header>
     <main class="main">
         <header class="header">
@@ -38,6 +43,20 @@
                     <a class="link" href="podstrona.html">Przejdź do artykułu o pisaniu HTMLa</a>
 
                 </p>
+                <section class="hobby">
+                    <ul class="hobby__list">
+                        <li>Piłka nożna</li>
+                        <li>Książki szpiegowskie</li>
+                        <li>Koleje</li>
+                    </ul>
+                </section>
+                <section class="plan">
+                    <ol>
+                        <li>Zmień pracę</li>
+                        <li>Weź kredyt</li>
+                        <li>Zrób coś</li>
+                    </ol>
+                </section>
             </section>
         </section>
 
@@ -45,7 +64,8 @@
             <h2 class="about__header">CSS</h2>
             <section>
                 <h3 class="about__title">Później jest CSS</h3>
-                <p class="about__paragraph about__paragraph--js">Kolejnym elementem, który poznajemy to CSS. Są to kaskadowe arkusze stylów.
+                <p class="about__paragraph about__paragraph--js">Kolejnym elementem, który poznajemy to CSS. Są to
+                    kaskadowe arkusze stylów.
                     Odpowiadają one za
                     prezentację. CSS wpływa na wygląd elementów HTML na ekranie. Składnia CSS to reguły.</p>
             </section>
@@ -56,7 +76,8 @@
             <h2 class="about__header">JavaScript</h2>
             <section>
                 <h3 class="about__title">Na samym końcu mamy JavaScript</h3>
-                <p class="about__paragraph about__paragraph--js">JavaScript to język programowania. Odpowiada on za interakcję. Pozwala na
+                <p class="about__paragraph about__paragraph--js">JavaScript to język programowania. Odpowiada on za
+                    interakcję. Pozwala na
                     programowanie we
                     frontendzie. Potrafi wpływać na każdą z warstw. Rozszerza możliwości zwykłych stron.
                 </p>
@@ -64,6 +85,30 @@
             </section>
         </section>
 
+<section class="data">
+    <table class="table">
+        <caption>Oceny z kursu CoTenFrontend</caption>
+        <thead>
+            <tr>
+            <th>Imię Nazwisko</th>
+            <th>Ocena</th>
+            <th>Data</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Maciej Latasz</td>
+                <td>4</td>
+                <td>15.07.2019</td>
+            </tr>
+            <tr>
+                    <td>Jan Nowak</td>
+                    <td>3</td>
+                    <td>16.07.2019</td>
+                </tr>
+        </tbody>
+    </table>
+</section>
 
     </main>
     <footer>
