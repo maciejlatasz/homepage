@@ -2,12 +2,13 @@ html {
 	box-sizing: border-box;
 }
 
-*, *"after, *:before {
- box-sizing: inherit;
+*, *after, *:before {
+	box-sizing: inherit;
 }
 
-body {
-	background: #fefefe;
+.body {
+	background: rgb(2, 0, 36);
+	background: linear-gradient(340deg, rgba(2, 0, 36, 1) 0%, rgba(218, 226, 228, 0.9920168751094187) 9%, rgba(0, 212, 255, 1) 100%);
 	color: #333;
 }
 
@@ -15,15 +16,19 @@ body {
 	width: 100%;
 	max-width: 700px;
 	margin: 32px auto;
-	padding-top: 10px;
+	padding-top: 32px;
 }
 
 .about__header {
 	color: rgb(97, 95, 228);
 }
 
-.main__heading {
+.header__title {
 	color: darkblue;
+}
+
+.header__title--red {
+	color: darkred;
 }
 
 .about__title {
@@ -38,12 +43,16 @@ p {
 .navigation {}
 
 .navigation__item {
-	display: inline;
+	display: block;
+	margin: 0 16px;
 }
 
 .navigation__list {
 	list-style: none;
 	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .navigation__link {
@@ -99,4 +108,17 @@ p {
 
 .hobby__list {
 	list-style: none;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 16px;
+	grid-row-gap: 16px; 
+}
+
+@media (max-width: 640px) {
+	.grid {
+		grid-template-columns: 1fr;
+	}
 }

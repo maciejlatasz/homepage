@@ -42,3 +42,18 @@ console.log(calculate(2));
 const calculateFat = x => (x+3)*7;
 
 console.log(calculateFat(2));
+
+const welcome = (name, age) => {
+    console.log(`Witaj ${name}, masz ${age} lat`);
+}
+
+welcome('Maciek', 29);
+
+const button = document.querySelector(`.header__button--js`);
+console.log(button)
+
+button.addEventListener('click', (e) => {
+    const header = document.querySelector(`.header__title--js`);
+    header.innerHTML = 'niespodzianka';
+    header.classList.add(`header__title--red`);
+});
