@@ -21,6 +21,27 @@ html {
 
 .about__header {
 	color: rgb(97, 95, 228);
+	font-size: 20px;
+}
+
+.about__header::before {
+	content: "-";
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	margin-right: 5px;
+	background: yellow;
+}
+
+.about__header::after {
+	content: "-";
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	margin-right: 5px;
+	background: rgb(65, 201, 99);
 }
 
 .header__title {
